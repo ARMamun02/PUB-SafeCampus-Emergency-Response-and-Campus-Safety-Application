@@ -1,0 +1,17 @@
+# One-click deploy on Render: New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: pub-safecampus
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: TEST_MODE
+        value: "true"        # no real SMS or calls. Keep true for the demo.
+      - key: DEMO_ACCOUNTS
+        value: "true"        # one-tap demo logins. Set false for a real pilot.
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_PASSWORD
+        generateValue: true  # see it in Render > Environment

@@ -1,0 +1,28 @@
+{
+  "name": "PUB SafeCampus",
+  "_note": "Pundra University of Science and Technology, Gokul, Bogura. Positions marked approximate were read from a Google Maps satellite recording and can be about 10 to 15 m off. Replace lat and lng with exact right-click values from Google Maps when you have time.",
+  "center": { "lat": 24.92225, "lng": 89.3484 },
+  "zoom": 18,
+  "buildings": [
+    { "id": "gate", "name": "Main Gate", "short": "Main Gate", "lat": 24.922413, "lng": 89.34903 },
+    { "id": "it", "name": "IT Office", "short": "IT Office", "lat": 24.922359, "lng": 89.349015, "_todo": "approximate" },
+    { "id": "admin", "name": "Administration Building", "short": "Admin", "lat": 24.92205, "lng": 89.34903, "_todo": "approximate, left of the main gate" },
+    { "id": "main", "name": "Main Campus Building", "short": "Main Campus", "lat": 24.922215, "lng": 89.347322, "_todo": "position set from hand-drawn map sketch" },
+    { "id": "civil", "name": "Civil Engineering Building", "short": "Civil", "lat": 24.922796, "lng": 89.348151, "_todo": "position set from hand-drawn map sketch" },
+    { "id": "hostelg", "name": "Girls' Hostel", "short": "Girls Hostel", "lat": 24.922583, "lng": 89.348817, "_todo": "approximate" },
+    { "id": "hostelb", "name": "Boys' Hostel", "short": "Boys Hostel", "lat": 24.922867, "lng": 89.348864, "_todo": "approximate" },
+    { "id": "cafe", "name": "Cafeteria", "short": "Canteen", "lat": 24.9221589, "lng": 89.3487305 },
+    { "id": "lib", "name": "Library", "short": "Library", "lat": 24.921813, "lng": 89.348405 },
+    { "id": "cultural", "name": "Cultural Club", "short": "Cultural Club", "lat": 24.921965, "lng": 89.348337, "_todo": "approximate" },
+    { "id": "pond", "name": "Pond side", "short": "Pond side", "lat": 24.9218965, "lng": 89.3479141 },
+    { "id": "ground", "name": "Playground", "short": "Playground", "lat": 24.921605, "lng": 89.346035 },
+    { "id": "shahid", "name": "Shahid Minar", "short": "Shahid Minar", "lat": 24.921798, "lng": 89.345851, "_todo": "position set from hand-drawn map sketch" }
+  ],
+  "directory": [
+    { "name": "Security Desk", "role": "24 hours", "phone": "TEST-0101" },
+    { "name": "Medical Centre", "role": "24 hours", "phone": "TEST-0102" },
+    { "name": "Proctor Office", "role": "Office hours, after hours via Security", "phone": "TEST-0103" },
+    { "name": "Fire Service Liaison", "role": "24 hours", "phone": "TEST-0104" },
+    { "name": "Campus Ambulance", "role": "24 hours, dispatched by Medical Centre", "phone": "TEST-0105" }
+  ]
+}
