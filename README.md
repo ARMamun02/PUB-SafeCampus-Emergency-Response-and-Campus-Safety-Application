@@ -1,4 +1,4 @@
-ProjectDemo Video link:https://youtu.be/lHjWhPdUsXk
+ProjectDemo Video link:https://drive.google.com/file/d/1v2JpIQF6AqhqIG9UG8h_O2OzeDqfcG7_/view?usp=sharing
 <p align="center">
   <img src="public/logo-256.png" alt="Pundra University of Science and Technology logo" width="140">
 </p>
